@@ -18,7 +18,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.android.sip">
     <application android:icon="@drawable/icon" android:label="SipDemo">
-      <activity android:name=".WalkieTalkieActivity"
+        <activity android:name=".WalkieTalkieActivity"
           android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -30,7 +30,6 @@
 
         <receiver android:name=".IncomingCallReceiver" android:label="Call Receiver"/>
     </application>
-    <uses-sdk android:minSdkVersion="9" />
     <uses-permission android:name="android.permission.USE_SIP" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
